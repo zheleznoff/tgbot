@@ -1,0 +1,23 @@
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "description": "telegram bot for myself",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js" 
+  },  
+  "engines": {
+    "node": "v12.18.2"
+  },
+  "author": "Egor Zheleznoff <zheleznoffegor@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "0.50.0",
+    "nodemon": "^2.0.4",
+    "weather-js": "^2.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
